@@ -1,5 +1,5 @@
 {
-  "name": "my-expo-app",
+  "name": "mtc-iar-app",
   "version": "1.0.0",
   "scripts": {
     "android": "expo start --android",
@@ -11,7 +11,11 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo-google-fonts/cabin": "^0.3.0",
+    "@types/webpack-env": "^1.18.8",
     "expo": "^52.0.44",
+    "expo-font": "~13.0.4",
+    "expo-router": "^4.0.20",
     "expo-status-bar": "~2.0.1",
     "nativewind": "latest",
     "react": "18.3.1",
@@ -35,6 +39,6 @@
     "extends": "universe/native",
     "root": true
   },
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "expo-router/entry",
   "private": true
 }
