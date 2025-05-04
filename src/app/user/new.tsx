@@ -1,11 +1,12 @@
 import { View, Text, TextInput, Pressable, TouchableWithoutFeedback, Keyboard, SafeAreaView } from "react-native";
 
-{/* Form Example, I took this from another project lol */}
+{/* Form Example, I took this from another project lol */ }
 const Page = () => {
+    
     return (
         <SafeAreaView className="bg-white w-full h-full">
             <View className="ml-4 mt-4 w-full">
-                <Text className="text-2xl font-cabin font-bold">NUTRIX.AI</Text>
+                <Text className="text-2xl font-cabin font-bold">MTC IAR</Text>
                 <Text className="text-md font-cabin">Create Account</Text>
             </View>
             <TouchableWithoutFeedback onPress={Keyboard.dismiss} accessible={false}>
